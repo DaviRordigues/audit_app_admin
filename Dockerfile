@@ -1,6 +1,4 @@
-FROM python:3.9
-
-RUN apt-get update && apt-get install -y libaio1
+FROM python:3.10-slim
 
 WORKDIR /app
 
