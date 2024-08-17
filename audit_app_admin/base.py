@@ -81,14 +81,6 @@ import oracledb
 oracledb.version = "8.3.0"
 sys.modules["cx_Oracle"] = oracledb
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.oracle',
-        'NAME': 'localhost:1521/XE',
-        'USER': 'admin_user',
-        'PASSWORD': 'Oradoc_db1'
-    }
-}
 
 
 # Password validation
