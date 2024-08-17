@@ -1,5 +1,6 @@
 from django.db import models
 
+
 # Create your models here.
 class Audit(models.Model):
     id = models.AutoField(primary_key=True)
@@ -10,4 +11,4 @@ class Audit(models.Model):
 
     class Meta:
         managed = False
-        db_table = 'audits'
+        db_table = 'AUDITS'

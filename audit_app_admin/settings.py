@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'audit_app'
 ]
 
 MIDDLEWARE = [
@@ -83,7 +84,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.oracle',
         'NAME': 'localhost:1521/XE',
-        'USER': 'audit-app',
+        'USER': 'admin_user',
         'PASSWORD': 'Oradoc_db1'
     }
 }
